@@ -1,0 +1,35 @@
+;Script for MBIND to build project.m
+;
+;Header
+;
+ModuleType        = VXW
+Version           = project.ver
+Reentrant         = FALSE
+NoOnlineConfig    = FALSE
+NoOnlineInstall   = FALSE
+NoOnlineDeinstall = FALSE
+DebugInfo         = TRUE
+ErrorTolerant     = FALSE
+NoAutoInstall     = FALSE
+SystemModule      = FALSE
+MMPReady          = TRUE
+;
+;Object-Code
+;
+ObjectType        = OBJ
+ObjectMode        = NORMAL
+Version           = project.ver
+ObjectName        = project.o
+;
+;Configuration-Rule
+;
+ObjectType        = BCRU
+ObjectName        = project.bcr
+;
+;Source-Code
+;
+;ObjectType        = C-ZIP
+;ObjectName        = project.tgz
+ObjectType = SWREQ
+Version = CPPLIB.ver
+ObjectName = CPPLIB

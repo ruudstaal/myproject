@@ -1,0 +1,32 @@
+MODUL TEMPLATE
+VERSION 102
+PROPERTY RECONF
+
+ROOT
+(ControlTask)
+	CycleTime							= UINT32(500 .. 60000000)[1000000]
+	Priority							= UINT32(20 .. 255)[90]
+END_ROOT
+
+DESC(001)
+	ControlTask							= "Configuration options for the task"
+	ControlTask.CycleTime				= "The cycletime in microseconds"
+	ControlTask.Priority				= "The priority of the task"
+END_DESC
+
+DESC(049)
+	ControlTask							= ""
+	ControlTask.CycleTime				= ""
+	ControlTask.Priority				= ""
+END_DESC
+
+HELP(001)
+"Hilfe:"
+    "    Hilfe auf Deutch"
+END_HELP
+
+HELP(049)
+"Help:"
+    "    Help in english"
+END_HELP
+;#endif

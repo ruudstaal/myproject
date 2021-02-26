@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="at.bachmann.cdt.gdb.launch.moduleLaunchType">
+    <stringAttribute key="configFile" value=""/>
+    <booleanAttribute key="installPermanently" value="false"/>
+    <stringAttribute key="installationMode" value="TEMPORARY_KEEP_CONFIG"/>
+    <intAttribute key="lineNumber" value="0"/>
+    <mapAttribute key="moduleConfig"/>
+    <stringAttribute key="moduleFilename" value="Bachmann_4.1.2_Configuration/project.m"/>
+    <intAttribute key="moduleIdentity" value="0"/>
+    <stringAttribute key="moduleInstanceName" value="PROJECT"/>
+    <stringAttribute key="org.eclipse.cdt.dsf.gdb.DEBUG_NAME" value="C:\bachmann\SolutionCenter\V2.49Release\cutils\GnuTools-4.1.2\bin\gdb.exe"/>
+    <stringAttribute key="org.eclipse.cdt.dsf.gdb.GDB_INIT" value="C:\bachmann\SolutionCenter\V2.49Release\cutils\GnuTools-4.1.2\bin\.gdbinit"/>
+    <stringAttribute key="org.eclipse.cdt.dsf.gdb.HOST" value="127.0.0.1"/>
+    <booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="true"/>
+    <stringAttribute key="org.eclipse.cdt.dsf.gdb.PORT" value="2345"/>
+    <booleanAttribute key="org.eclipse.cdt.dsf.gdb.REMOTE_TCP" value="true"/>
+    <booleanAttribute key="org.eclipse.cdt.dsf.gdb.UPDATE_THREADLIST_ON_SUSPEND" value="true"/>
+    <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="remote"/>
+    <booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="false"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="C:/bachmann/SolutionCenter/workspace/Project/Bachmann_4.1.2_Configuration/project.dbo"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="Project"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/Project"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#13;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;&#13;&#10;"/>
+    <booleanAttribute key="overrideConfig" value="false"/>
+    <stringAttribute key="process_factory_id" value="org.eclipse.cdt.dsf.gdb.GdbProcessFactory"/>
+    <stringAttribute key="profileName" value=""/>
+    <stringAttribute key="projectName" value="Project"/>
+    <booleanAttribute key="sendEOI" value="true"/>
+    <stringAttribute key="sequence" value="RUN"/>
+    <stringAttribute key="targetName" value="/Mytestsolution/M1_230.vxworks"/>
+    <booleanAttribute key="targetSelectionOnLaunch" value="false"/>
+</launchConfiguration>
